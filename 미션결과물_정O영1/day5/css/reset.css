@@ -1,0 +1,78 @@
+@import url("./root.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&&family=Noto+Sans+KR:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  /* overflow-x: hidden; */
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a,
+a:hover,
+a:visited,
+a:focus,
+a:active {
+  color: var(--black-60);
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+dt,
+dd,
+li,
+address {
+  font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--black-60);
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: var(--title-line-height);
+}
+h4,
+h5,
+h6 {
+  line-height: var(--card-title-line-height);
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 16px;
+}

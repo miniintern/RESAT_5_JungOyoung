@@ -1,0 +1,61 @@
+:root {
+  /* color */
+  --main-color: rgb(23, 161, 255);
+  --main-color-opacity: rgb(241, 249, 255);
+  --black-70: rgb(26, 27, 28);
+  --black-60: rgb(56, 64, 64);
+  --black-50: rgb(147, 153, 153);
+  --black-40: rgb(171, 177, 177);
+  --black-30: rgb(210, 215, 215);
+  --black-20: rgb(240, 243, 243);
+  --black-10: rgb(249, 249, 249);
+  --black-opacity: rgba(0, 56, 68, 0.1);
+  --white: rgb(255, 255, 255);
+
+  /* text */
+  --main-banner-font-size: 32px;
+  --main-banner-font-size-m: 26px;
+  --main-banner-subtitle-font-size: 24px;
+  --main-banner-subtitle-font-size-m: 20px;
+  --banner-font-size: 21px;
+  --title-font-size: 24px;
+  --title-font-size-m: 21px;
+  --subtitle-font-size: 16px;
+  --subtitle-font-size-m: 14px;
+  --cta-btn-font-size: 14px;
+  --card-title-font-size: 14px;
+  --card-content-font-size: 12px;
+  --gnb-font-size: 14px;
+  --footer-font-size: 14px;
+  --fotter-detail-font-size: 12px;
+
+  --title-line-height: 1.4;
+  --card-title-line-height: 1.5;
+
+  /* box size */
+  --header-height: 61px;
+  --header-inner: 90rem;
+  --section-inner: 936px;
+
+  /* padding & margin */
+  --header-padding: 0 1.5rem;
+  --header-logo-padding: 0 13px 0 16px;
+  --header-li-padding: 20px 16px;
+  --vertical-card-padding: 12px 12px 16px;
+  --horizontal-card-padding: 12px;
+  --footer-padding: 27px 0 37px;
+  --footer-padding-m: 24px 28px;
+
+  --section-margin: 60px auto;
+  --article-margin: 24px;
+  --title-margin: 10px;
+  --link-margin: 8px;
+  --text-margin: 4px;
+
+  /* border-radius */
+  --border-radius-big: 15px;
+  --border-radius-small: 5px;
+
+  /* box-shadow */
+  --box-shadow: 0 5px 10px var(--black-opacity);
+}

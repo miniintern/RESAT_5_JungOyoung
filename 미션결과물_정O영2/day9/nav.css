@@ -1,0 +1,88 @@
+/* font */
+@font-face {font-family: 'Giants-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; }
+/* 코드의 재사용성을 위한 선언 */
+:root {
+    --bgcolor: white;
+  }
+ 
+/* 모든 요소에 margin과 padding 제거 */
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Giants-Bold', sans-serif; 
+  }
+  
+  .page-header {
+    background-color: var(--bgcolor);
+    padding: 1.3rem;
+    display: flex;
+  }
+  
+  /* 가운데 정렬 */
+  .nav-bar {
+    width: 100%;
+    text-align: center;
+    }
+
+  .nav-bar a {
+    color: #000	;
+    padding: 1.3rem;
+    cursor: pointer;
+    display: inline-block;
+}
+  
+  .nav-bar a:hover {
+    color: #0064FF;
+  }
+  
+  .nav-bar a:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px#0064FF;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+
+  /* scaleX 변환을 통해 밑줄을 가로로 늘림. 이로 인해 밑줄이 글자의 가로 길이에 맞게 그려짐 */
+  .nav-bar a:hover:after { transform: scaleX(1); }
+  
+  /* active됐을 때 밑줄 */
+  /* .nav-bar a.active {
+    text-decoration-line: underline;
+    text-underline-offset: 5px; 
+    text-decoration-thickness: 3px;  
+    color: #0064FF;
+  } */
+  
+  .menu-icon {
+    color:  #0064FF;
+    cursor: pointer;
+    display: none;
+  }
+  
+  /* 미디어 쿼리 */
+  @media screen and (max-width: 768px) {
+    .nav-bar {
+        display: none;
+        position: absolute;
+        top: 3.7rem;
+        left: 0;
+        width: 100%;
+        background-color: var(--bgcolor);
+        text-align: center;
+    }
+  
+    /* 반응형 클래스가 추가됐을 경우 */
+    .nav-bar.responsive {
+        display: block;
+    }
+
+    .nav-bar a {
+        display: block;
+    }
+  
+    .menu-icon {
+        display: block;
+        z-index: 1;
+    }
+  }

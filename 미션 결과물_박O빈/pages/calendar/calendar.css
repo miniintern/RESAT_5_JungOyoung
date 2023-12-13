@@ -1,0 +1,127 @@
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  padding: 24px 32px;
+  gap: 16px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.calendar-header p {
+  font-size: 32px;
+}
+
+.calendar-header button {
+  font-size: 24px;
+  color: #3a3a3a;
+}
+
+.calendar-table {
+  width: 100%;
+}
+
+.calendar-table th {
+  text-align: center;
+  background-color: #cecece;
+  border: 1px solid #828282;
+}
+
+.calendar-table td {
+  position: relative;
+  text-align: center;
+  height: 64px;
+  border: 1px solid #828282;
+  cursor: pointer;
+}
+
+th:nth-child(1),
+td:nth-child(1),
+th:nth-last-child(1),
+td:nth-last-child(1) {
+  color: #828282;
+}
+
+.other-month {
+  color: #adadad;
+}
+
+.today-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #b6b6f6;
+  border-radius: 50%;
+  top: 3px;
+  left: 50%;
+  z-index: -1;
+  transform: translateX(-50%);
+}
+
+.memo-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #dcdcdc;
+  border-radius: 50%;
+  top: 3px;
+  left: 50%;
+  z-index: -1;
+  transform: translateX(-50%);
+}
+
+.modal-container {
+  display: none;
+  position: fixed;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.memo-modal {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  padding: 16px;
+  gap: 8px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.memo-text {
+  height: 100%;
+  padding: 8px;
+  border: 1px solid #adadad;
+  border-radius: 4px;
+  outline: none;
+  resize: none;
+}
+
+.button-section {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.button-section button {
+  width: 48px;
+  height: 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: background-color 0.3s;
+}
+
+.register-button {
+  background-color: #cecece;
+}

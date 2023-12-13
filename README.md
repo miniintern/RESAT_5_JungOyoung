@@ -16,4 +16,4 @@
 ![RESAT_프론트엔드_개발_5기_현직자_코드_리뷰_정O영_16](https://github.com/miniintern/RESAT_5_JungOyoung/assets/144213890/3ae8f070-0018-4ad8-a9cd-e8dc24e12224)
 ![RESAT_프론트엔드_개발_5기_현직자_코드_리뷰_정O영_17](https://github.com/miniintern/RESAT_5_JungOyoung/assets/144213890/a8fac5be-d79c-400c-8d24-e36007ad39c8)
 ![RESAT_프론트엔드_개발_5기_현직자_코드_리뷰_정O영_18](https://github.com/miniintern/RESAT_5_JungOyoung/assets/144213890/5b2b2790-7a94-4b9d-9f86-c4e6b3d746c3)
-![RESAT_프론트엔드_개발_5기_현직자_코드_리뷰_정하영_19](https://github.com/miniintern/RESAT_5_JungOyoung/assets/144213890/2d0a55db-b29c-4bbc-93a8-f130806f4d5a)
+![RESAT_프론트엔드_개발_5기_현직자_코드_리뷰_정O영_19](https://github.com/miniintern/RESAT_5_JungOyoung/assets/144213890/173557d6-b8a1-4bf4-b49d-d25922eed48e)
